@@ -23,8 +23,8 @@ public class level0 {
             System.out.print("- 정답 : ");
             myAnswer[i] = sc.nextInt();
 
-            if (myAnswer[i] == answer[i]) {
-                myScore += score[i];
+            if (myAnswer[i] == tests[i].getAnswer()) {
+                myScore += tests[i].getScore();
             }
 
             System.out.println();
